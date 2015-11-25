@@ -89,7 +89,7 @@ while True:
                                 m = 0
                                 for line in list:
                                     li = line.split()
-                                    if name == li[1:
+                                    if name == li[1]:
                                         print line,
                                         m = 1
                                         while True:
