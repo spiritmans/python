@@ -101,6 +101,7 @@ Python Built-in Functions
 	sum()									对集合求和
 	super(type[,object-or-type])			引用父类
 	tuple([iterable])						生成一个tuple类型
+	type()									查看对象类型
 	unichr(x)								返回给定int类型的unicode
 	unicode(object)							返回object的Unicode版本字符串
 	vars([object])							返回对象的变量，若无参数与dict()方法类似
