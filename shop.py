@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- conding:utf8 -*-
+# -*- coding:utf8 -*-
 import types
 import sys
 product = ['Iphone','TV','cloth','book','bike']
