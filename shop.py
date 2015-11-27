@@ -44,7 +44,7 @@ while True:
         print 'You have no enough money to buy %s'%no_list
         pass
     #打印可购买列表
-    print 'You can choose the product that you want to buy from %s'%store_list
+    print 'You can choose the product what you want to buy from %s'%store_list
     #开始选择购买产品
     choice = raw_input('Please input your choice:').strip()
     if choice == 'exit':break
