@@ -20,8 +20,8 @@ while True:
         p = a
         c = cost[product.index(a)]
         cost_list.append(c)
-        print p, c
-#    print cost_list
+     	print p, c
+
     no_list = []
     store_list = []
     for b in cost_list:
