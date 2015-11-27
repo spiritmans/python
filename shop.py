@@ -6,11 +6,15 @@ product = ['Iphone','TV','cloth','book','bike']
 cost = [4899, 3299, 329, 54, 1029]
 
 while True:
-    gz = raw_input('Please input your salary:').strip()
-    salary = int(gz)
+    salary = raw_input('Please input your salary:').strip()
+    try:
+    	salary = int(salary)
+    except ValueError as e:
+    	print e
     if type(salary) is int:
         break
     else:
+    	print 'Not a number input!Please input the number of your salary.'
         continue
 ###############################################
 cart_list = []
